@@ -1,10 +1,10 @@
 <div class="" style="position: reltive;" >
     <?php
-     echo $this->Html->css('/../unity/TemplateData/style.css');
-     //echo $this->Html->script('/../unity/TemplateData/UnityProgress.js');
-     //echo $this->Html->script('/../unity/Build/UnityLoader.js');
+     echo $this->Html->css('/unity/TemplateData/style.css');
+     echo $this->Html->script('/unity/TemplateData/UnityProgress.js');
+     echo $this->Html->script('/unity/Build/UnityLoader.js');
     ?>
-    <!--
+
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "unity/Build/Builds.json", {onProgress: UnityProgress});
     </script>
@@ -18,5 +18,5 @@
         <div class="title">Mankind</div>
       </div>
     </div>
-    -->
+    
 </div>

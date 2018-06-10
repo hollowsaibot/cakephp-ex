@@ -210,7 +210,7 @@ pre {
 <section class='container'>
 
         <hgroup>
-           <h1>Welcome to your CakePHP application on OpenShift</h1>
+           <h1>Test - Welcome to your CakePHP application on OpenShift</h1>
         </hgroup>
 
         <?= $this->fetch('content') ?>
@@ -219,7 +219,9 @@ pre {
           <div class="logo"><a href="https://www.openshift.com/"></a></div>
         </footer>
 </section>
-
+<script>
+console.log('hola');
+</script>
 
 </body>
 </html>

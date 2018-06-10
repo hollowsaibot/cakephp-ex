@@ -15,7 +15,7 @@
             <?= '' /*$this->element('unity/index')*/ ?>
         </div>
         <div class="row">
-            <?= $this->fetch('content') ?>
+            <?= '' /* $this->fetch('content') */ ?>
         </div>
     </div>
     <?= $this->element('footer') ?>

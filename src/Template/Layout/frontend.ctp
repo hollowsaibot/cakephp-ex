@@ -12,7 +12,7 @@
         <?= $this->Flash->render() ?>
         <!-- Unity -->
         <div class="row">
-            <?= $this->element('unity/index') ?>
+            <?= '' /*$this->element('unity/index')*/ ?>
         </div>
         <div class="row">
             <?= $this->fetch('content') ?>

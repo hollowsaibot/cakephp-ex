@@ -4,7 +4,7 @@
     <?= $this->element('head') ?>
 </head>
 <body>
-    <?= $this->element('header') ?>
+    <?= '' /*$this->element('header')*/ ?>
 
     <!-- Page Content -->
     <div id="content" class="container">

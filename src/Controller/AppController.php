@@ -58,6 +58,6 @@ class AppController extends Controller
         //$this->loadComponent('Csrf');
 
         // Set the layout
-        //$this->viewBuilder()->layout('frontend');
+        $this->layout = 'frontend';
     }
 }

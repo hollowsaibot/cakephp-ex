@@ -1,5 +1,11 @@
         <div class="row">
           <section class='col-xs-12 col-sm-6 col-md-6'>
+                <?= $this->element('unity/index') ?>
+          </section>
+        </div>
+
+        <div class="row">
+          <section class='col-xs-12 col-sm-6 col-md-6'>
             <section>
               <h2>How to use this example application</h2>
                 <p>For instructions on how to use this application with OpenShift, start by reading the <a href="http://docs.openshift.org/latest/dev_guide/templates.html#using-the-quickstart-templates">Developer Guide</a>.</p>

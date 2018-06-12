@@ -1,6 +1,6 @@
         <div class="row">
           <section class='col-xs-12 col-sm-6 col-md-6'>
-                <?= $this->element('unity') ?>
+                <?php echo $this->element('unity'); ?>
           </section>
         </div>
 

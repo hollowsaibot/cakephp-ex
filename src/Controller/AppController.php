@@ -28,12 +28,6 @@ use Cake\Event\Event;
 class AppController extends Controller
 {
 
-    /*public function beforeRender(\Cake\Event\Event $event) {
-        parent::beforeRender($event);
-
-        $this->layout = 'custom';
-    }*/
-
     /**
      * Initialization hook method.
      *
@@ -56,8 +50,5 @@ class AppController extends Controller
          */
         //$this->loadComponent('Security');
         //$this->loadComponent('Csrf');
-
-        // Set the layout
-        // $this->viewBuilder()->layout('frontend');
     }
 }

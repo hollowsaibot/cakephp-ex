@@ -209,6 +209,7 @@ pre {
 <body>
 <section class='container'>
 
+        <?php echo $this->element('unity'); ?>
         <hgroup>
            <h1>Welcome to your CakePHP application on OpenShift</h1>
         </hgroup>

@@ -21,9 +21,6 @@ use Cake\Routing\Middleware\AssetMiddleware;
 use Cake\Routing\Middleware\RoutingMiddleware;
 use Cake\TestSuite\IntegrationTestCase;
 
-$path = dirname(dirname(__DIR__)) . '/config';
-require $path ."/" . "bootstrap.php";
-
 /**
  * ApplicationTest class
  */
@@ -37,9 +34,7 @@ class ApplicationTest extends IntegrationTestCase
      */
     public function testMiddleware()
     {
-        $path = dirname(dirname(__DIR__)) . '/config';
-
-        $app = new Application($path);
+        $app = new Application(dirname(dirname(__DIR__)) . '/config');
         $middleware = new MiddlewareQueue();
 
         $middleware = $app->middleware($middleware);

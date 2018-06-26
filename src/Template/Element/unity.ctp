@@ -3,7 +3,7 @@
     <h1>TEST START</h1>
     <header>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "../unity/Build/Builds.json", {onProgress: UnityProgress});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "unity/Build/Builds.json", {onProgress: UnityProgress});
     </script>
   </header>
   <section>

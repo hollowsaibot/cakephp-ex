@@ -1,31 +1,31 @@
 <IfModule mod_mime.c>
-   Options +FollowSymLinks
-   RewriteEngine on
+#   Options +FollowSymLinks
+#   RewriteEngine on
+#
+#   AddEncoding gzip .unityweb
+#
+#   RewriteCond %{HTTP:Accept-encoding} gzip
+#   RewriteCond %{REQUEST_FILENAME}gz -f
+#   RewriteRule ^(.*)\.js$ $1\.jsgz [L]
 
-    AddEncoding gzip .unityweb
+#   RewriteCond %{HTTP:Accept-encoding} gzip
+#   RewriteCond %{REQUEST_FILENAME}gz -f
+#   RewriteRule ^(.*)\.data$ $1\.datagz [L]
 
-    RewriteCond %{HTTP:Accept-encoding} gzip
-    RewriteCond %{REQUEST_FILENAME}gz -f
-    RewriteRule ^(.*)\.js$ $1\.jsgz [L]
+#   RewriteCond %{HTTP:Accept-encoding} gzip
+#   RewriteCond %{REQUEST_FILENAME}gz -f
+#   RewriteRule ^(.*)\.mem$ $1\.memgz [L]
 
-    RewriteCond %{HTTP:Accept-encoding} gzip
-    RewriteCond %{REQUEST_FILENAME}gz -f
-    RewriteRule ^(.*)\.data$ $1\.datagz [L]
+#   RewriteCond %{HTTP:Accept-encoding} gzip
+#   RewriteCond %{REQUEST_FILENAME}gz -f
+#   RewriteRule ^(.*)\.unity3d$ $1\.unity3dgz [L]
 
-    RewriteCond %{HTTP:Accept-encoding} gzip
-    RewriteCond %{REQUEST_FILENAME}gz -f
-    RewriteRule ^(.*)\.mem$ $1\.memgz [L]
+#   AddEncoding gzip .jsgz
+#   AddEncoding gzip .datagz
+#   AddEncoding gzip .memgz
+#   AddEncoding gzip .unity3dgz
 
-    RewriteCond %{HTTP:Accept-encoding} gzip
-    RewriteCond %{REQUEST_FILENAME}gz -f
-    RewriteRule ^(.*)\.unity3d$ $1\.unity3dgz [L]
-
-    AddEncoding gzip .jsgz
-    AddEncoding gzip .datagz
-    AddEncoding gzip .memgz
-    AddEncoding gzip .unity3dgz
-
-    AddType application/x-gzip .gz .tgz .memgz .jsgz .datagz
+#    AddType application/x-gzip .gz .tgz .memgz .jsgz .datagz
 
 </IfModule>
 

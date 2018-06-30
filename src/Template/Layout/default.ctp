@@ -41,7 +41,7 @@ $cakeDescription = 'Debug: the rapid development php framework';
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.8/angular-material.min.css">
 
 </head>
-<body ng-app="BlankApp" ng-cloak >
+<body ng-app="BlankApp" ng-cloak layout="column" >
 
     <nav class="top-bar expanded" data-topbar role="navigation">
         <ul class="title-area large-3 medium-4 columns">
@@ -56,11 +56,14 @@ $cakeDescription = 'Debug: the rapid development php framework';
             </ul>
         </div>
     </nav>
-    <?= $this->Flash->render() ?>
-    <div class="container clearfix">
-        <?= $this->fetch('content') ?>
-    </div>
-    <footer>
+    <section class="scroll-y" flex >
+        <?= $this->Flash->render() ?>
+        <div class="container clearfix" >
+            <?= $this->fetch('content') ?>
+        </div>
+    </section>
+    <footer layout-padding class="footer"  >
+        <small>made by carlosvelasco@gmail.com</small>
     </footer>
 
     <!-- Angular Material requires Angular.js Libraries -->

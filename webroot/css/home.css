@@ -243,3 +243,9 @@ hr {
 footer {
     background: #116d76
 }
+
+.brain-layer {
+    border: 3px solid black;
+    padding: 30px;
+    background-color: #1cc7ff;
+}

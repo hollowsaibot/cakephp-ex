@@ -56,9 +56,9 @@ $cakeDescription = 'Debug: the rapid development php framework';
             </ul>
         </div>
     </nav>
-    <section class="scroll-y" flex >
+    <section class="scroll-y" flex layout="column" layout-wrap >
         <?= $this->Flash->render() ?>
-        <div class="container clearfix" >
+        <div class="container clearfix" flex layout="column" layout-wrap >
             <?= $this->fetch('content') ?>
         </div>
     </section>

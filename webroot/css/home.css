@@ -266,10 +266,11 @@ footer {
     /*outline: 3px solid black;*/
     box-shadow: inset 0px 0px 0px 3px white;
     padding: 30px;
-    background-color: #1cc7ff;;
+    background-color: #1cc7ff;
     width: 100%;
     height: 100%;
 }
-.brain-layer:hover:before {
+.brain-layer.active:before {
     border: 3px solid rgba(0,0,0,1);
+    /*background-color: #ff5700;*/
 }

@@ -1,3 +1,4 @@
+<md-content layout-padding >
 <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
       <md-button class="md-raised">Button</md-button>
       <md-button class="md-raised md-primary">Primary</md-button>
@@ -139,3 +140,5 @@ oc deploy cakephp-mysql-example --latest
 
           </section>
         </div>
+
+        </md-content>

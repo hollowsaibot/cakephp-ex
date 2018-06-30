@@ -29,14 +29,13 @@ $cakeDescription = 'Debug: the rapid development php framework';
     <?= $this->Html->css('base.css') ?>
     <?= $this->Html->css('cake.css') ?>
 
-    <?= $this->Html->css('/unity/TemplateData/style.css') ?>
-    <?= $this->Html->script('/unity/TemplateData/UnityProgress.js') ?>
-    <?= $this->Html->script('/unity/Build/UnityLoader.js') ?>
-    <?= $this->Html->script('/components/jquery/dist/jquery.js') ?>
-
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
+
+    <?= $this->Html->script('/components/jquery/dist/jquery.js') ?>
+    <?= $this->Html->script('scripts.js') ?>
+
 
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.8/angular-material.min.css">
 

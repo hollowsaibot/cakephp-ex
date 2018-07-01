@@ -29,18 +29,8 @@ $cakeDescription = 'Debug: the rapid development php framework';
     <?= $this->Html->css('base.css') ?>
     <?= $this->Html->css('cake.css') ?>
 
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.8/angular-material.min.css">
-
     <!-- js -->
    <?= $this->Html->script('/components/jquery/dist/jquery.js') ?>
-   <!-- Angular Material requires Angular.js Libraries -->
-   <?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js') ?>
-   <?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.min.js') ?>
-   <?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-aria.min.js') ?>
-   <?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-messages.min.js') ?>
-
-   <!-- Angular Material Library -->
-   <?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/angular_material/1.1.8/angular-material.min.js') ?>
 
    <?= $this->Html->script('scripts.js') ?>
 

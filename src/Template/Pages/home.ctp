@@ -1,5 +1,3 @@
-<?= $this->Html->css('home.css') ?>
-
 <md-content layout-padding layout="column" flex >
     <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
           <md-button class="md-raised">Button</md-button>

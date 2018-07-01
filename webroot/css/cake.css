@@ -523,14 +523,3 @@ table td {
     vertical-align: top;
     word-break: break-all;
 }
-
-.scrollable {
-    overflow-x: auto;
-    overflow-y: auto;
-}
-.scroll-x {
-    overflow-x: auto;
-}
-.scroll-y {
-    overflow-y: auto;
-}

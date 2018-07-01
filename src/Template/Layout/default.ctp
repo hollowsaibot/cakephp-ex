@@ -25,20 +25,19 @@ $cakeDescription = 'Debug: the rapid development php framework';
         <?= $this->fetch('title') ?>
     </title>
     <?= $this->Html->meta('icon') ?>
-    <!-- css -->
+
     <?= $this->Html->css('base.css') ?>
     <?= $this->Html->css('cake.css') ?>
 
-    <!-- js -->
+    <?= $this->Html->css('../unity/TemplateData/style.css') ?>
+    <?= $this->Html->script('../unity/TemplateData/UnityProgress.js') ?>
+    <?= $this->Html->script('../unity/Build/UnityLoader.js') ?>
 
-    <!-- bloks -->
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
-
 </head>
 <body>
-
     <nav class="top-bar expanded" data-topbar role="navigation">
         <ul class="title-area large-3 medium-4 columns">
             <li class="name">
@@ -53,11 +52,10 @@ $cakeDescription = 'Debug: the rapid development php framework';
         </div>
     </nav>
     <?= $this->Flash->render() ?>
-    <div class="container clearfix" >
+    <div class="container clearfix">
         <?= $this->fetch('content') ?>
     </div>
     <footer>
     </footer>
-
 </body>
 </html>

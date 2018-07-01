@@ -65,12 +65,10 @@ $cakeDescription = 'Debug: the rapid development php framework';
             </ul>
         </div>
     </nav>
-    <section class="scroll-y" flex layout="column" layout-wrap >
-        <?= $this->Flash->render() ?>
+    <?= $this->Flash->render() ?>
         <div class="container clearfix" flex layout="column" layout-wrap >
             <?= $this->fetch('content') ?>
-        </div>
-    </section>
+    </div>
     <footer layout-padding class="footer"  >
         <small>made by carlosvelasco@gmail.com</small>
     </footer>

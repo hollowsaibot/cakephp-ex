@@ -30,9 +30,6 @@ $cakeDescription = 'Debug: the rapid development php framework';
     <?= $this->Html->css('cake.css') ?>
 
     <!-- js -->
-   <?= $this->Html->script('/components/jquery/dist/jquery.js') ?>
-
-   <?= $this->Html->script('scripts.js') ?>
 
     <!-- bloks -->
     <?= $this->fetch('meta') ?>

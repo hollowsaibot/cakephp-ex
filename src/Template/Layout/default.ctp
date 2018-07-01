@@ -56,8 +56,7 @@ $cakeDescription = 'Debug: the rapid development php framework';
     <div class="container clearfix" >
         <?= $this->fetch('content') ?>
     </div>
-    <footer class="footer"  >
-        <small>made by carlosvelasco@gmail.com</small>
+    <footer>
     </footer>
 
 </body>

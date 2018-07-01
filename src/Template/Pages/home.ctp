@@ -1,4 +1,5 @@
 <md-content layout-padding layout="column" flex >
+    <h1>Mankind + Brain</h1>
     <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
           <md-button class="md-raised">Button</md-button>
           <md-button class="md-raised md-primary">Primary</md-button>

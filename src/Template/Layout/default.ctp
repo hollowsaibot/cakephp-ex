@@ -50,7 +50,7 @@ $cakeDescription = 'Debug: the rapid development php framework';
     <?= $this->fetch('script') ?>
 
 </head>
-<body ng-app="BlankApp" ng-cloak layout="column" >
+<body>
 
     <nav class="top-bar expanded" data-topbar role="navigation">
         <ul class="title-area large-3 medium-4 columns">
@@ -74,14 +74,6 @@ $cakeDescription = 'Debug: the rapid development php framework';
     <footer layout-padding class="footer"  >
         <small>made by carlosvelasco@gmail.com</small>
     </footer>
-
-    <!-- Your application bootstrap  -->
-    <script type="text/javascript">
-      /**
-       * You must include the dependency on 'ngMaterial'
-       */
-      angular.module('BlankApp', ['ngMaterial', 'ngMessages']);
-    </script>
 
 </body>
 </html>

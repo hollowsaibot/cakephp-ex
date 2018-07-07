@@ -40,6 +40,12 @@ $cakeDescription = 'Debug: the rapid development php framework';
 
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.8/angular-material.min.css">
 
+    <link rel="stylesheet" href="/components/highlight/src/styles/default.css" >
+    <link rel="stylesheet" href="/components/highlight/src/styles/atom-one-dark.css" >
+
+    <script src="/components/highlight/src/styles/highlight.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
 </head>
 <body ng-app="BlankApp" ng-cloak layout="column" >
 

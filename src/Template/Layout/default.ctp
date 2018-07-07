@@ -43,7 +43,7 @@ $cakeDescription = 'Debug: the rapid development php framework';
     <link rel="stylesheet" href="/components/highlight/src/styles/default.css" >
     <link rel="stylesheet" href="/components/highlight/src/styles/atom-one-dark.css" >
 
-    <script src="/components/highlight/src/styles/highlight.js"></script>
+    <script src="/components/highlight/src/highlight.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
 </head>

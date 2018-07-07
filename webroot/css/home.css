@@ -290,3 +290,8 @@ footer {
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
 }
+
+.brain-wrapper {
+    min-height: 100vh !important;
+    height: 100vh !important;
+}

@@ -83,6 +83,32 @@
             })
         </code></pre>
     </section>
+    <section>
+        <pre><code class="csharp">
+            using System;
+            #pragma warning disable 414, 3021
+            public class Program
+            {
+                /// <summary>The entry point to the program.</summary>
+                public static int Main(string[] args)
+                {
+                    Console.WriteLine("Hello, World!");
+                    string s = @"This
+                    ""string""
+                    spans
+                    multiple
+                    lines!";
+                        return 0;
+                    }
+                }
+                async Task<int> AccessTheWebAsync()
+                {
+                    // ...
+                    string urlContents = await getStringTask;
+                    return urlContents.Length;
+                }
+        </code></pre>
+    </section>
 
     <script>
     $(document).ready(function() {

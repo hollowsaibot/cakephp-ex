@@ -40,10 +40,10 @@ $cakeDescription = 'Debug: the rapid development php framework';
 
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.8/angular-material.min.css">
 
-    <link rel="stylesheet" href="/components/highlight/src/styles/default.css" >
-    <link rel="stylesheet" href="/components/highlight/src/styles/atom-one-dark.css" >
+    <link rel="stylesheet" href="/components/highlightjs/styles/default.css" >
+    <link rel="stylesheet" href="/components/highlightjs/styles/atom-one-dark.css" >
 
-    <script src="/components/highlight/src/highlight.js"></script>
+    <script src="/components/highlightjs/highlight.pack.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
 </head>

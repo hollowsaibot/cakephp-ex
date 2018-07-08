@@ -310,6 +310,14 @@ footer {
     padding: 0px;
     margin: 0px;
 }
+.brain-block ul.inline-list.justify-content-center {
+    text-align: center;
+}
+.brain-block ul.inline-list.justify-content-center li{
+    display: inline-flex;
+    float: unset;
+    margin: 0px -2px;
+}
 
 .brain-block .lobe{
     border: 3px solid transparent;

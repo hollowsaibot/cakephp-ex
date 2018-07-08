@@ -248,6 +248,16 @@ footer {
     background: #116d76
 }
 
+/* BRAIN */
+.brain-wrapper {
+    min-height: 100vh !important;
+    height: 100vh !important;
+}
+
+.brain-wrapper > .brain-layer {
+    height: 100%;
+}
+
 .brain-layer {
     border: 3px solid transparent;
     /*outline: 3px solid black;*/
@@ -291,7 +301,34 @@ footer {
     -webkit-animation-iteration-count: infinite;
 }
 
-.brain-wrapper {
-    min-height: 100vh !important;
-    height: 100vh !important;
+.brain-block {
+    position: relative;
+    width: 100%;
+}
+.brain-block ul.inline-list,
+.brain-block ul.inline-list li{
+    padding: 0px;
+    margin: 0px;
+}
+
+.brain-block .lobe{
+    border: 3px solid transparent;
+    padding: 30px;
+    position: relative;
+}
+
+/*.brain-block .lobe{
+    min-height: 65px;
+    height: 65px;
+}*/
+
+.brain-block .lobe:before {
+    content: "";
+    position: absolute;
+    border: 3px solid rgba(0,0,0,0.5);
+    box-shadow: inset 0px 0px 0px 3px white;
+    margin: -30px;
+    background-color: #e9ff00;
+    width: 100%;
+    height: 100%;
 }

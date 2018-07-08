@@ -11,15 +11,35 @@
     </section>
 
      <section flex class="brain-wrapper scroll-y" layout="row" layout-align="center center" layout-wrap>
-        <section flex class="brain-layer" layout="row" layout-align="center center" layout-wrap>
-            <section flex class="brain-layer" layout="row" layout-align="center center" layout-wrap>
-                <section flex class="brain-layer" layout="row" layout-align="center center" layout-wrap>
+        <section flex class="brain-layer forebrain" layout="column" layout-align="center center" layout-wrap>
+            <section class="brain-block" >
+                <div class="telencephalon" layout="row" layout-align="center center" >
+                    <ul class="inline-list">
+                        <li><span class="lobe lobe-frontal" ></span></li>
+                        <li><span class="lobe lobe-parietal" ></span></li>
+                        <li><span class="lobe lobe-occipital" ></span></li>
+                        <li><span class="lobe lobe-temporal" ></span></li>
+                    </ul>
+                </div>
+                <div class="diencephalon" layout="row" layout-align="center center" >
+                    <span class="lobe lobe-frontal" ></span>
+                    <span class="lobe lobe-parietal" ></span>
+                    <span class="lobe lobe-occipital" ></span>
+                    <span class="lobe lobe-temporal" ></span>
+                </div>
+            </section>
+            <section flex class="brain-layer midbrain" layout="row" layout-align="center center" layout-wrap>
+                <section flex class="brain-layer hindbrain" layout="row" layout-align="center center" layout-wrap>
                       <section flex class="brain-layer" layout="row" layout-align="center center" layout-wrap></section>
                       <section flex class="brain-layer" layout="row" layout-align="center center" layout-wrap></section>
                  </section>
-             </section>
+            </section>
+
+        </section>
+
+         <section flex class="brain-layer" layout="row" layout-align="center center" layout-wrap>
+
          </section>
-         <section flex class="brain-layer" layout="row" layout-align="center center" layout-wrap></section>
      </section>
 
     <section>

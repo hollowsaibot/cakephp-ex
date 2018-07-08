@@ -19,13 +19,27 @@
                         <li><span class="brain-layer list-inline-item lobe lobe-parietal" ></span></li>
                         <li><span class="brain-layer list-inline-item lobe lobe-occipital" ></span></li>
                         <li><span class="brain-layer list-inline-item lobe lobe-temporal" ></span></li>
+                        <li><span class="brain-layer list-inline-item lobe lobe-temporal" ></span></li>
+                        <li><span class="brain-layer list-inline-item lobe lobe-temporal" ></span></li>
+                        <li><span class="brain-layer list-inline-item lobe lobe-temporal" ></span></li>
+                        <li><span class="brain-layer list-inline-item lobe lobe-temporal" ></span></li>
+                        <li><span class="brain-layer list-inline-item lobe lobe-temporal" ></span></li>
+                        <li><span class="brain-layer list-inline-item lobe lobe-temporal" ></span></li>
                     </ul>
                 </div>
                 <div class="diencephalon" layout="row" layout-align="center center" >
-                    <span class="brain-layer lobe lobe-frontal" ></span>
-                    <span class="brain-layer lobe lobe-parietal" ></span>
-                    <span class="brain-layer lobe lobe-occipital" ></span>
-                    <span class="brain-layer lobe lobe-temporal" ></span>
+                    <ul class="inline-list justify-content-center">
+                        <li><span class="brain-layer list-inline-item lobe lobe-frontal" ></span></li>
+                        <li><span class="brain-layer list-inline-item lobe lobe-parietal" ></span></li>
+                        <li><span class="brain-layer list-inline-item lobe lobe-occipital" ></span></li>
+                        <li><span class="brain-layer list-inline-item lobe lobe-temporal" ></span></li>
+                        <li><span class="brain-layer list-inline-item lobe lobe-temporal" ></span></li>
+                        <li><span class="brain-layer list-inline-item lobe lobe-temporal" ></span></li>
+                        <li><span class="brain-layer list-inline-item lobe lobe-temporal" ></span></li>
+                        <li><span class="brain-layer list-inline-item lobe lobe-temporal" ></span></li>
+                        <li><span class="brain-layer list-inline-item lobe lobe-temporal" ></span></li>
+                        <li><span class="brain-layer list-inline-item lobe lobe-temporal" ></span></li>
+                    </ul>
                 </div>
             </section>
             <section flex class="brain-layer brain-section midbrain" layout="row" layout-align="center center" layout-wrap>

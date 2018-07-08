@@ -325,7 +325,26 @@ footer {
     margin: 0px -2px;
 }
 
+/* Sections */
+
+.brain-layer.forebrain:before {
+    background-color: #ffc000;
+}
+.brain-layer.midbrain:before {
+    background-color: #feff00;
+}
+.brain-layer.hindbrain:before {
+    background-color: #e9ff00;
+}
+
 /* Lobes */
 .brain-layer.lobe:before {
-    background-color: #e9ff00;
+    background-color: #86ff00;
+}
+
+.telencephalon .brain-layer.lobe:before {
+    background-color: #00ff4a;
+}
+.diencephalon .brain-layer.lobe:before {
+    background-color: #00f8ff;
 }
